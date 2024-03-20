@@ -1,0 +1,51 @@
+/* CSS to set the image size relative to the page width */
+
+.shrinkedbody{
+    margin: 0 auto; /* Center the body content */
+    max-width: 800px; /* Set maximum width */
+}
+
+/* Italic text */
+.italic-text {
+    font-style: italic;
+    margin-top: 20px; /* Add margin before paragraph */
+    margin-bottom: 20px; /* Add margin after paragraph */
+    text-align: center;
+}
+
+/* Header with large text */
+.header
+{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 20px; /* Add margin before paragraph */
+    margin-bottom: 20px; /* Add margin after paragraph */
+    text-align: center;
+}
+
+/* Footer with small text */
+.instruction
+{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px; /* Add margin before paragraph */
+    margin-bottom: 20px; /* Add margin after paragraph */
+    text-align: center;
+}
+
+/* Footer with small text */
+.footer
+{
+    font-size: small;
+    margin-top: 20px; /* Add margin before paragraph */
+    margin-bottom: 20px; /* Add margin after paragraph */
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
